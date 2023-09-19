@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Профиль пользователя</title>
+    <link href="{% static 'css/style_prof.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="row">
+    <img src="{% static k2 %}" alt="picture">
+    <ol id="prop">
+        <li>Имя</li>
+        <li>Возраст</li>
+        <li>Гражданство</li>
+        <li>Город</li>
+        <li>Профессия</li>
+        <li>Язык</li>
+        <li>Эл.почта</li>
+        <li>Семейное положение</li>
+        <li>Вредные привычки</li>
+    </ol>
+    <ol>
+        <li>{{ k1 }}</li>
+        <li>{{ k3 }}</li>
+        <li>{{ k4 }}</li>
+        <li>{{ k5 }}</li>
+        <li>{{ k6 }}</li>
+        <li>{{ k7 }}</li>
+        <li>{{ k8 }}</li>
+        <li>{{ k9 }}</li>
+        <li>{{ k10 }}</li>
+
+    </ol>
+
+</div>
+
+
+</body>
+</html>

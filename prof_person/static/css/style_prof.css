@@ -1,0 +1,27 @@
+body {
+    background-color: darkgrey;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+img {
+    width: 35%;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+ol li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+#prop li {
+    color: darkblue;
+}
+
+
